@@ -11,5 +11,5 @@
     }else{
         echo "<h1>Valor total em $unidadeMonetaria: € $convercaoEuro</h1>";
     }
-?>
+
     

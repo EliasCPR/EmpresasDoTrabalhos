@@ -7,21 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="GET">
+    <form action="calculopwh.php" method="GET">
         <div class="input-group">
             <label for="nomeCompleto">Digite seu nome completo:</label>
             <input type="text"  name="nomeCompleto" id="nomeCompleto" required placeholder="nome completo">
         </div>
 
         <div class="input-group">
-            <label for="estado">Estado:</label>
-            <input type="text"  name="estado" id="estado" required placeholder="Digite seu estado">
-            <label for="cidade">Cidade:</label>
-            <input type="text"  name="cidade" id="cidade" required placeholder="Digite sua cidade">
-            <label for="rua">Rua:</label>
-            <input type="text"  name="rua" id="rua" required placeholder="Digite sua rua">
-            <label for="numero">Numero:</label>
-            <input type="number"  name="numero" id="numero" min="0" required placeholder="Digite o número da sua casa">
+            <label for="endereco">Digite seu endereço:</label>
+            <input type="text"  name="endereco" id="enedereco" required placeholder="ex:Rua e N°">
+            <label for="cep">Digite seu CEP:</label>
+            <input type="text"  name="cep" id="cep" required placeholder="ex:xxxxx-xxx">
+
         </div>
         <div class="input-group">
             <label for="kWh">Consumo em kWh:</label>
